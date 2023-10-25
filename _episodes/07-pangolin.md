@@ -75,7 +75,7 @@ We already have links to our Prokka annotations in the `get_homologues/` directo
 ~~~
 $ ls ~/pan_workshop/results/pangenome/get_homologues/data_gbks/* | while read line
 do 
-name=$(echo $line | cut -d'/' -f9 | cut -d'.' -f1)
+name=$(echo $line | cut -d'/' -f9 | sed 's/\.gbk$//')
 echo $name$'\t'$line >> organisms.gbk.list
 done
 ~~~
