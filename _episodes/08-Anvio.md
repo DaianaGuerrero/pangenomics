@@ -33,7 +33,7 @@ closer look at the pangenome matrix and some interesting characteristics of our 
 
 To start using Anvi'o, activate the conda environment `Pangenomics_Global`.
 ~~~
-$ conda activate /miniconda3/envs/anvio-7.1
+$ conda activate anvio-7.1
 ~~~
 {: .language-bash}
 
